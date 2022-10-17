@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  node_a:
+    build: .
+
+  node_b:
+    build: .

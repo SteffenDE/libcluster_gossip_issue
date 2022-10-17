@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  node_a:
+    build:
+      dockerfile: Dockerfile.25_1
+      context: .
+
+  node_b:
+    build:
+      dockerfile: Dockerfile.25_1
+      context: .
